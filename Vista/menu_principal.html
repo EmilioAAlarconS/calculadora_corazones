@@ -6,11 +6,21 @@
 </head>
 <body>
     <h1>Bienvenido a la Calculadora de Corazones</h1>
-    <p>Selecciona una opción del menú:</p>
-    <ul>
-        <li><a href="Vista/calculadora.html">Ir a la calculadora</a></li>
-        <li><a href="Vista/ajustes.html">Ajustes</a></li>
-        <li><a href="Vista/salir.html">Salir</a></li>
-    </ul>
+
+    <container>
+        <h2>Datos de corazón</h2>
+        <p>Ciudad de corazón</p>
+        <select id="ciudad-corazon">
+            <option value="lymhurst">Lymhurst</option>
+            <option value="bridgewatch">Bridgewatch</option>
+            <option value="martlock">Martlock</option>
+            <option value="thetford">Thetford</option>
+            <option value="fort-sterling">Fort Sterling</option>
+            <option value="caerleon">Caerleon</option>
+        </select>
+        <p>Precio del corazón</p>
+        <input type="number" id="precio-corazon" placeholder="Precio del corazón" />
+        <button id="agregar-corazon">Agregar corazón</button>
+    </container>
 </body>
 </html>
