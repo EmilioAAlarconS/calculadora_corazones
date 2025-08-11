@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src="../Formulario/formulario.js"></script>
+</html>
+
+<container>
+        <h2>Datos de corazón</h2>
+        <p>Ciudad de corazón</p>
+        <select id="ciudad-corazon">
+            <option value="lymhurst">Lymhurst</option>
+            <option value="bridgewatch">Bridgewatch</option>
+            <option value="martlock">Martlock</option>
+            <option value="thetford">Thetford</option>
+            <option value="fort-sterling">Fort Sterling</option>
+            <option value="caerleon">Caerleon</option>
+        </select>
+        <p>Precio del corazón</p>
+        <input type="number" id="precio-corazon" placeholder="Ej: 50,000 de plata" />
+        <br><br>
+        <button onclick="agregar_corazon()" id="agregar-corazon">Agregar corazón</button>
+    </container>
+
+    <container>
+        <h2>Lista de corazones por ciudades</h2>
+        
+        <div id="lista-corazones"></div>
+    </container>
